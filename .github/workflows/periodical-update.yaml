@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     name: Generate GeoIP2 database
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
 
     - name: Set up Go 1.x
